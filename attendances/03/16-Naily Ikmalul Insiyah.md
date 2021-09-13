@@ -1,4 +1,6 @@
-Rangkuman Pertemuan 2
+Rangkuman Pertemuan 2 Mobile
+- pembahasan mengenai IaaS.
+- diskusi mengenai perbedaan E3 dan E4 pada AMD.
 - Oracle Cloud Infrastructure ada 2 jenis instances yaitu bare metal dan virtual machine (VM)
 - Ketika membuat sebuah compute instance, dapat memilih jenis instance yang sesuai kebutuhan.
 berdasarkan karakteristik sumber daya
@@ -14,3 +16,4 @@ berdasarkan karakteristik sumber daya
 - Disarankan memakai putty
 - Disarankan mencari refrensi dari website: https://serversforhackers.com/
 - Key SSH bisa dipastikan aman
+- kita bisa klik Save Private Key untuk mengunduh private key milik kita agar nanti VM bisa diakses
