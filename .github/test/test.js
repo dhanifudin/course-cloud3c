@@ -1,6 +1,6 @@
 const glob = require("glob");
 const { countCharacters } = require("wcmd/lib/utils");
-const MINIMAL_CHARS = 300;
+const MINIMAL_CHARS = 1000;
 
 (async () => {
   glob("../../attendances/**/*.md", (err, files) => {
