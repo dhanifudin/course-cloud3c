@@ -1,4 +1,4 @@
-Rangkuman Pertemuan 2 Mobile
+Rangkuman Pertemuan 2
 - Oracle Cloud Infrastructure ada 2 jenis instances yaitu bare metal dan virtual machine (VM)
 - Ketika membuat sebuah compute instance, dapat memilih jenis instance yang sesuai kebutuhan.
 berdasarkan karakteristik sumber daya
