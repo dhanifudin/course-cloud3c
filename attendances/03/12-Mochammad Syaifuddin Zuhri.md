@@ -9,10 +9,11 @@ Pembahasan pada pertemuan 3, antara lain:
 
 3. Jenis-jenis shapes pada instance
 
-  - Standart shapes 
-  - DenseIO shape 
-  - HPC shapes 
-  - Optimazed shapes
+  - Standart shapes : dirancang untuk kebutuhan umum yang banyak digunakan pada aplikasi-aplikasi dan use cases pada umumnya.
+  - DenseIO shape : dirancang untuk basis data yang besar, seperti big data dan aplikasi-aplikasi yang membutuhkan performa storage yang tinggi.
+  - GPU shapes : dirancang untuk akselerasi pada hardware terutama kebutuhan GPU termasuk Inter, AMD CPU dan prosesor grafis NVIDIA
+  - HPC shapes : dirancang untuk komputasi performa tinggi yang membutuhkan frekuensi prosesor core yang tinggi
+  - Optimazed shapes : dirancang untuk komputasi tingkat tinggi pada frekuensi core prosesor. 
 
   Adapaun flexible pada shape yaitu:
   
