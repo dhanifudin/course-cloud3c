@@ -27,3 +27,35 @@ sumber daya. Misalnya :</b>
 	4. High performance computing (HPC) shapes-> dirancang untuk komputasi performa tinggi yang membutuhkan frekuensi prosesor core yang tinggi dan HPC dalam klaster jaringan yang diakses secara paralel.
 	5. Optimized shapes: dirancang untuk komputasi tingkat tinggi pada frekuensi core prosesor. Shape ini juga cocok untuk kebutuhan HPC dengan low latency. Shape ini juga mendukung cluster networking.
 
+<h3>Flexible Shapes</h3>
+Flexible shapes merupakan sebuah template yang dapat melakukan custom sejumlah OCPU dan memori ketika melakukan launching atau mengubah VM.
+Setiap OCPU merujuk pada dua hardware yang mengeksekusi threads (juga dikenal sebagai virtual CPUs atau vCPUs). 
+Ketika kitaa membuat sebuah VM menggunakan flexible shape, pilihan jumlah OCPU dan volume memori yang dibutuhkan dapat disesuaikan. 
+Berikut ini jenis-jenis flexible shapes yang tersedia: 
+	• VM.Standard.E3.Flex (AMD) -> maximum memory sebesar 1024GB
+	• VM.Standard.E4.Flex (AMD) -> maximum memory sebesar 1024GB
+	• VM.Optimized3.Flex (Intel) -> maximum memory sebesar 256GB
+	• VM.Standard.A1.Flex (Arm processor dari Ampere) -> maximum memory sebesar 512GB
+	
+	#Note : Flexible shape Intel atau AMD? Sesuaikan dengan kebutuhan saja.
+	Pada VM.Standard.E3.Flex dan VM.Standard.E3.Flex memiliki karakteristik yang hampir sama. kemungkinan yang membedakan adalah kesupportan pada Operating System.
+
+<h3>Jenis-jenis Kapasitas</h3>
+Kita dapat memilih kapasitas tiap jenis host yang digunakan untuk VM. Secara default kapasitas jenis on-demand sudah terpilih, tetapi juga memungkinkan memilih jenis kapasitas lainnya.
+	- On-demand capacity: cukup bayar sesuai dengan kapasitas compute yang kita gunakan saja.
+	- Preemptible capacity: berguna saat membutuhkan sumber daya ketika beban kerja meningkat (autoscaling) pada periode waktu tertentu, sehingga lebih hemat biaya.
+	- Reserved capacity: kapasitas cadangan yang berguna untuk masa yang akan datang sesuai dengan kebutuhan. Kapasitas cadangan yang tidak digunakan perhitungan biayanya berbeda dengan sumber daya yang sedang digunakan.
+	- Dedicated capacity: menjalankan instance VM pada dedicated server, sehingga sumber daya tidak dibagi dengan client/customer lain.
+	
+<h3>Komponen Pembuatan VM</h3>
+1. Availability domain
+2. Virtual cloud network
+3. Key pair (untuk Linux) -> Aman, tapi kuncinya harus disimpan dengan baik. #Selama kita memiliki kunci maka kita bisa mengaksesnya tanpa ditanya 
+4. Tags
+5. Password (untuk Windows)
+6. Image
+7. Shape
+
+Jazakallahu Khairan
+
+
