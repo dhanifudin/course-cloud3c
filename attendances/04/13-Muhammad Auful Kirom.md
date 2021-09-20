@@ -12,10 +12,8 @@ serta konfigurasi firewall</p>
  <p>Web server merupakan perangkat lunak yang merespon permintaan (request) dari browser. Jadi web server mempunyai peran untuk menghubungkan antara user dengan server website.</p>
 
  1. Apache
-    <p>Apache diluncurkan pada tahun 1995 dan menjadi <b>web server</b> populer sejak satu tahun kemudian sampai dengan saat ini. Jadi web server ini sudah ada lebih dari 20 tahun dan sampai dengan saat ini Apache Web Server dikelola oleh Apache Software Foundation.</p>
-
-    
-   <b>Kelebihan Apache</b>
+ 
+    <b>Kelebihan Apache</b>
     <ul>
       <li>Lintas platform.</li>
       <li>Kompatibel dengan WordPress</li>
@@ -25,6 +23,7 @@ serta konfigurasi firewall</p>
       <li>Patch keamanan yang terus diperbarui</li>
       <li>Konfigurasi mudah</li>
     </ul>
+    
     <b>Kekurangan Apache</b>
     <ul>
       <li>Keamanan yang rentan karena ada beberapa konfigurasi yang tidak dikembangkan dengan baik.</li>
@@ -33,7 +32,7 @@ serta konfigurasi firewall</p>
     <br>
     
  2. Nginx
-    <p>Nginx adalah web server dengan performa yang andal dan mempunyai beberapa fitur canggih lain yang mudah dikonfigurasi. Alhasil, Nginx mampu membuat website Anda lebih powerful dan canggih.</p>
+ 
     <b>Kelebihan Nginx</b>
      <ul>
       <li>Dapat menggantikan hardware load balancer</li>
