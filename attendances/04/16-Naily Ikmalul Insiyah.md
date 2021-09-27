@@ -1,0 +1,21 @@
+Catatan pertemuan 4 (Naily Ikmalul Insiyah - 16)
+- perlu mereview materi di jaringan komputer
+- Konsep dasar di dunia jaringan komputer bisa diaplikasikan 
+- Harus mengerti mengenai penulisan ID
+- Di cloud juga bisa membuat subneting
+- CC = membangun jaringan dengan virtual (tanpa fisik)
+- Membahas tentang VCN
+- Web server -> Database, hosting
+- Membahas perbedaaan NGINX dan Apache
+- Performa NGINX biasanya lebih baik daripada Apache
+- NGINX membutuhkan php-fpm
+- NGINX lebih fokus ke bahasa pemograman
+- Misal : Jika ada Aplikasi port 9000 dan kita akan mengakses dari yang port 80. Maka jika satu lokasi, akses tidak perlu dibuka, jika berbeda vm maka harus dibuka 
+- Spek mengikuti besarnya aplikasi
+- Request Proxy -> misal ada aplikasi.com(:80) yang ingin mengakses phpmyadmin(:8080), maka perlu ditambahi menjadi db.aplikasi.com. (domain db tersebut request pass ke port 8080)
+- perintah 'sudo systemctl' digunakan untuk manajemen layanan 
+- di oracle linux cmd harus dibuka (sudo firewall-cmd)
+- CC membahas port apa saja yang bisa dibuka
+- 1 vm bisa digunakan untuk beberapa web server dengan catatan port tidak boleh sama (tapi tidak direkomendasikan)
+- Silahkan untuk research port2 yang biasa digunakan
+(contoh http = 80, https = 443, ssh = 22)
