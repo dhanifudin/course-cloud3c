@@ -39,5 +39,3 @@ Produk SaaS Oracle (Bisnis) :
 - Oracle EPM Cloud
 - racle Communications Security Shield Clou
 
-
-
