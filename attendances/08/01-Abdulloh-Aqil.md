@@ -1,5 +1,5 @@
-Pertemuan 8 - Object Storage
-- Layanan Oracle Cloud Infrastructure Object Storage adalah platform penyimpanan yang memiliki performa yang tinggi dan scalable, menawarkan ketahanan data yang andal dan hemat biaya
+Pertemuan 8 - Storage services oracle cloud infrastructure
+
 - Object Storage adalah layanan regional dan tidak terikat dengan instance komputasi tertentu.
 - Oracle Cloud Infrastructure (OCI) Object Storage memungkinkan pelanggan untuk menyimpan semua jenis data dengan aman dalam format aslinya.
 - Dengan Object Storage, Kita dapat menyimpan atau mengambil data langsung dari internet atau dari dalam platform cloud
@@ -8,3 +8,4 @@ Pertemuan 8 - Object Storage
 - Beberapa cara untuk mengakses Object Storage yang disediakan OCI yaitu Console, CLI, REST API dan OCI SDK
 - Kita dapat meningkatkan keamanan Object Storage policies dengan membatasi akses hanya untuk permintaan yang berasal dari alamat IP yang diizinkan
 - Setiap layanan di Oracle Cloud Infrastructure terintegrasi dengan IAM untuk otentikasi dan otorisasi, untuk semua interface (Konsol, SDK atau CLI, dan REST API).
+- Storage oracle cloud juga merupakan saas (softeware as service) yang dimana charge / biaya ini tergantung pemakaian kita 
