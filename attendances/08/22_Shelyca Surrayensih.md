@@ -1,4 +1,5 @@
-Pertemuan 8 - Storage services oracle cloud infrastructure
+# Pertemuan 8 - Storage services oracle cloud infrastructure
+
 Layanan Oracle Cloud Infrastructure Object Storage adalah platform penyimpanan yang memiliki performa yang tinggi dan scalable,  menawarkan ketahanan data yang andal dan hemat biaya. Layanan Object Storage dapat menyimpan data tidak terstruktur dalam jumlah tak terbatas dari jenis konten apa pun, termasuk data analitik dan konten (seperti gambar dan video).
 Object Storage adalah layanan regional dan tidak terikat dengan instance komputasi tertentu. Kita dapat mengakses data dari mana saja di dalam atau di luar konteks Oracle Cloud Infrastructure, selama Kita memiliki konektivitas internet dan dapat mengakses salah satu end point Object Storage (untuk authorization dan resource limit akan dibahas pada jobseet/pertemuan yang lain). 
 
