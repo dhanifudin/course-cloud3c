@@ -25,3 +25,12 @@ sebuah gateway layanan memungkinkan konektivitas ke end point publik Object Stor
 * CLI
 * REST API
 * OCI SDK
+
+### Limits on Object Storage Resources:
+* Number of Object Storage namespaces per root compartment: 1
+* Maximum object size: 10 TiB
+* Maximum object part size in a multipart upload: 50 GiB
+* Maximum number of parts in a multipart upload: 10,000
+* Maximum object size allowed by PutObject API: 50 GiB
+* Maximum size of object metadata: 2 K
+
