@@ -12,4 +12,14 @@ Keuntungan Docker :
   - Manging infrastructure-like code
   - Open source
   - Konsistensi
+ 
+> Arsitektur Docker
+
+- Docker Container : VM atau Guest Operating System
+- Docker Client	   : Kumpulan command-line untuk mengoperasikan docker container
+- Docker Daemon    : aplikasi yang berjalan di host machine
+- Docker engine    : gabungan ketiga diatas
+- Docker image	   : template yang digunakan untuk membuat container
+- Docker registry  : tempat yang digunakan untuk menyimpan docker image
+- Docker compose   : sebuah cara yang dapat digunakan untuk mendefinisikan dan menjalankan lebih dari satu container
 	
