@@ -1,0 +1,7 @@
+# Rangkuman pertemuan 12 cloud computing 
+<p align="justify">  Pada minggu ini membahas terkait layanan CI/CD, CI/CD adalah suatu metode yang mengirimkan aplikasi secara automasi kedalam tahap pengembagan aplikasi. Jika kita kupas lebih jauh CI adalah mengacu
+  pada integritas pada pengembangan selanjutnya, CI yang berhasil mendapatkan kode baru maka dibuat , diuji dan akan digabungkan ke dalam repository sedangkan CD mengacu pada pengiriman berkelanjutan atau bisa dikatakan step proses.
+  alur pada CI/CD kita akan membuat suatu kode yang dimana didalamnya berisi kumpulan perintah untuk build,test dan merge setelah kode yml terbuat maka dikirimkan ke repository dan dijalankan automasi oleh github hingga selesai terdeploy untuk aplikasi yang kita inginkan.
+  didalam pengembangan perangkat lunak pastinya dikerjakan secara bersamaan atau team maka dari itu selalu mengecek anggota yang akan mengedit ke versi pembaruan terbaru sehingga tidak adanya crash dan aspek paling penting dalam CI/CD memastikan bahwa kode dikompilasi tanpa kesalahan.
+  yang menjalankan nantinya adalah github lebih tepatnya github action dimana github membaca workflow sesuai dengan rancangan maka dari itu saat membuat workflow harus sesaui kebutuhan sebagai contoh kita akan menggunakan layanan nginx maka sebelumnya kita deskripsikan bahwa nginx telah terinstal workflow dapat dibuat dengan file bernama YAML.
+  jangan lupa kita isikan ke akun github suatu identitas pada oracle cloud agar diberi akses untuk menghubungkan sebagai contoh OCI Bucket,OCI Region, dll </p>
