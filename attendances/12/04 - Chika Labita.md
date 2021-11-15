@@ -1,4 +1,4 @@
-<h1>Week 12 | | CI/CD </h1>
+<h1>Pertemuan Minggu 12 | | CI/CD </h1>
 
 <h2>Resume Materi </h2>
 
@@ -8,14 +8,14 @@ Continuous Integration [Build -> Test -> Merge] => Continuous Delivery [Automati
 GitHub Action :
 - Action -> logic yang dipakai untuk menjalankan sesuatu
 - Artifacts ->
-- Event 
-- GitHub-Hosted Runners -> 
+- Event ->
+- GitHub-Hosted Runners -> support pada windows, linux dan macOS
 - Job -> Kumpulan beberapa action
 - Selft-Hostedf Runner -> dipasang pada satu server yang tidak terjangkau oleh connection public
 - Step -> diwakili satu action, di definisikan workflow file YAML
-- Workflow 
-- Workflow File
-- Workflow Run
+- Workflow ->
+- Workflow File ->
+- Workflow Run ->
 
 Variables :
 Pada Common CI/CD System, kita dapat mendefinisikan custom variables.
