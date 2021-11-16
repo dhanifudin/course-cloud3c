@@ -1,0 +1,5 @@
+pertemuan 12
+	Pada pertemuan 12 ini di materi cloud computing membahas tentang apa itu CI/DI , CI/DI adalah sebuah metode deployment atau pembangunan
+sebuah sistem yang dapat ter otomatisasi secara berkala , dalam pengembangannya ci/di ini menggunakan tools yang sudah tersedia didalam sebuah
+sebuah repo yang dapat di akses secara team atau individu ,akan tetapi biasanya dalam proses pengembangan individu tidak memerlukan yang namanya ci/di cukup kepada diri sendiri karen hanya satu orang yang yang berpartisipasi , akan tetapi kalau dalam sebuah team itu di perlukan 
+karena dalam sebuah team kita tidak tau pasti bagaiman karakter , dan pribadi lalu terutama penulisan kode dari setiap individu yang ada dalam team , maka dari itu bisa di katak cukup susah kalau harus memilah satu satu, ini dapat di bantu solusinya dengan ci/di, dengan ci/di maka sistem yang akan menilai atau mendebug sebuah pekerjaan dalam sebuah team , apabila tidak lolos test maka akan dikembalikan ulang atau bisa saja langsung gagal dalam proses push ke repository..
