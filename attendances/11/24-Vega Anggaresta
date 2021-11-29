@@ -1,0 +1,36 @@
+# Materi Minggu 11 - DOCKER (2)
+
+## Tipe-tipe Docker Network
+* Docker Network Bridge
+merupakan jenis network bawaan docker
+* Docker Network Host merupakan Docker network meletakkan container di dalam stack hostnya network.
+* Docker Network None bertujuan untuk tidak mengkonfigurasi networking.Tidak ada driver yang digunakan pada Network jenis ini.Ketika kita tidak menginginkan container untuk dapat diakses. Perintah yang digunakan dengan menambahkan parameter –net=none.
+
+## Perintah dasar docker network
+* Docker Network ls
+* Docker Network create
+* Docker Network rm
+* Docker Network connect
+* Docker Network disconnect
+* Docker Network inspect
+
+## Expose dan Mapping Port
+Expose adalah container aplikasi kita akan listen pada port yang ter-expose. Sebagai contoh, aplikasi server Tomcat akan listen pada port default yaitu 8080. Sedangkan mapping port dilakuan dengan menambahkan parameter –p ketika menjalankan container.
+
+## Persistent storage pada docker
+Persistent storage pada docker bertujuan agar data pada container tetap terjaga walaupun container telah dihapus. Persitence storage juga dapat berbagi data antara container yang lain ataupun dengan host docker.
+
+## Perintah Docker Volume
+### Docker volume create
+untuk membuat sebuah volume
+### Docker volume inspect
+menampilkan detail informasi pada satu atau lebih dari satu volume.
+### Docker volume ls
+menampilkan daftar volume.
+### Docker volume rm
+menghapus satu atau lebih volume yang terdapat pada docker host.
+### Docker volume prune
+menghapus semua volume yang tidak digunakan, semua volume yang sudah tidak digunakan oleh container akan dihapus.
+
+## Docker Compose
+adalah sebuah tool untuk mendefiniskan, launching, dan mengelola service, dimana sebuah service adalah didefinisikan sebagai satu atau lebih dari sebuah docker container.
