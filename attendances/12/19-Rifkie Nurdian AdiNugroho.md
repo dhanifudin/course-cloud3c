@@ -25,3 +25,12 @@ Setelah tahap Testing selesai, akan dimulai tahap Deploy. Pada tahap Deploy, kam
 Jika tahap Deploy berhasil, kamu akan berlanjut ke tahap Auto Test. Jika keseluruhan software yang dikembangkan sudah dapat berjalan baik, maka software kamu sudah dapat dijalankan ke produksi (Deploy to Production).
 
 Dalam setiap tahap, jika ada error dan semacamnya, kamu bisa menghubungi tim developer untuk membenarkan software tersebut, ini disebut sebagai Production Feedback. Developer akan memperbarui versi melalui Version Control, dan setiap tahap di atas akan berulang kembali. Siklus tersebut akan berulang sebanyak mungkin hingga diperoleh code yang dapat dijalankan ke server produksi, di mana kita dapat mengukur dan memvalidasi code. (Measure + Validate).
+
+CI/CD adalah suatu metode yang mengirimkan aplikasi secara automasi ke dalam tahap pengembangan aplikasi. "CI" dalam CI/CD merupakan proses otomatisasi untuk pengembang. CI yang berhasil berarti perubahan kode baru pada aplikasi secara teratur dibuat, diuji, dan digabungkan ke repositori bersama. "CD" dalam CI/CD mengacu pada pengiriman atau deployment berkelanjutan yang merupakan konsep terkait yang terkadang digunakan secara bergantian.
+
+Software dikembangkan secara iteratively (berulang) dalam sebuah potongan kecil berdasarkan feedback pengguna (user) yang sering. Tes ditulis selama dan diterapkan di seluruh proses development untuk memastikan kode aplikasi yang berkualitas. Security patches dan perbaikan pada bug (bug fixes) cepat digunakan melalui otomatisasi. Kode aplikasi yang baru sering diintegrasikan dengan basis kode yang ada dan diuji untuk memastikan software selalu siap digunakan untuk produksi.
+
+Terdapat 2 aspek penting yang perlu diperhatikan untuk menjamin stabilitas basis kode, yaitu seperti berikut ini:
+
+Aspek untuk memastikan bahwa kode dikompilasi tanpa kesalahan.
+Aspek untuk memastikan bahwa semua unit test yang memvalidasi perilaku kode lulus, termasuk perubahan kode terbaru dengan persentase yang sangat tinggi.
